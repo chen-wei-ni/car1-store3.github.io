@@ -1,0 +1,89 @@
+﻿body {
+	margin:0 auto;
+	background-color:#f5f5f5;
+}
+	.title {
+		background-color:#fff;
+		padding:20px 0;
+		text-align:center;
+		box-shadow:2px 2px 5px #DDDDDD;
+	}
+	.title h2 {
+		color:#0b9e5f;
+		letter-spacing:2px;
+		font-size:1.5rem;
+		font-weight:800;
+		margin:0;
+	}
+	#main{
+		margin:20px auto;
+		max-width:600px;
+	}
+	#main .header {
+		display:grid;
+		grid-gap:2px;
+		grid-template-columns:0.8fr 0.8fr 1fr 1fr 0.8fr;
+		
+	}
+	#main .header .gray-bg {
+		background-color:#545b64;
+		color:#fff;
+		padding:4px 2px;
+		text-align:center;
+		font-weight:600;
+		letter-spacing:1px;
+		font-size:1.2rem;
+	}
+	#main .content {
+		display:grid;
+		grid-template-columns:0.8fr 0.8fr 1fr 1fr 0.8fr;
+	}
+	#main .content  {
+		margin-top:5px;	
+	}
+	#main .content .info-grid {
+		background-color:#fff;
+		padding: 5px 3px;
+		text-align:center;
+		box-shadow:2px 0px 5px #d3d3d3;
+	}
+	#main .content .transfer {
+		
+		
+	}
+	#main .content .transfer a{
+		text-decoration:none;
+		padding:4px 28px;
+		color:#545b64;
+		font-weight:800;
+		border: 1px solid #545b64;
+		box-shadow: 0 2px 5px #d3d3d3;
+	}
+	#main .content .select-btn {
+		background-color:#0b9e5f;
+		padding: 5px 2px;
+		box-shadow:2px 0px 5px #d3d3d3;
+	}
+	#main .content .select-btn a {
+		display:block;
+		text-decoration:none;
+		color:#fff;
+		text-align:center;
+		vertical-align: middle;
+		font-weight:600;
+	}
+	#main .btn-page {
+		text-align:center;
+		margin-top:20px;
+	}
+	#main .btn-page a {
+		display:inline-block;
+		margin-left:30px;
+		background-color:#0b9e5f;
+		text-decoration:none;
+		color:#fff;
+		letter-spacing:1px;
+		font-size:1.2rem;
+		font-weight:600;
+		padding:5px 15px;
+	}
